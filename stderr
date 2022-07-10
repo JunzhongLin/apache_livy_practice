@@ -1,0 +1,262 @@
+2022-07-09 15:28:27,475 INFO server.AccessManager: AccessControlManager acls disabled;users with view permission: ;users with modify permission: ;users with super permission: ;other allowed users: *
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream: Welcome to
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream:       ____              __
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream:      / __/__  ___ _____/ /__
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream:     _\ \/ _ \/ _ `/ __/  '_/
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream:    /___/ .__/\_,_/_/ /_/\_\   version 2.4.5
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream:       /_/
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream:                         
+2022-07-09 15:28:28,895 INFO utils.LineBufferedStream: Using Scala version 2.11.12, OpenJDK 64-Bit Server VM, 1.8.0_252
+2022-07-09 15:28:28,896 INFO utils.LineBufferedStream: Branch HEAD
+2022-07-09 15:28:28,896 INFO utils.LineBufferedStream: Compiled by user centos on 2020-02-02T20:01:52Z
+2022-07-09 15:28:28,896 INFO utils.LineBufferedStream: Revision cee4ecbb16917fa85f02c635925e2687400aa56b
+2022-07-09 15:28:28,897 INFO utils.LineBufferedStream: Url https://gitbox.apache.org/repos/asf/spark.git
+2022-07-09 15:28:28,898 INFO utils.LineBufferedStream: Type --help for more information.
+2022-07-09 15:28:29,155 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-07-09 15:28:29,427 INFO recovery.StateStore$: Using BlackholeStateStore for recovery.
+2022-07-09 15:28:29,433 INFO sessions.BatchSessionManager: Recovered 0 batch sessions. Next session id: 0
+2022-07-09 15:28:29,436 INFO sessions.InteractiveSessionManager: Recovered 0 interactive sessions. Next session id: 0
+2022-07-09 15:28:29,437 INFO sessions.InteractiveSessionManager: Heartbeat watchdog thread started.
+2022-07-09 15:28:29,451 INFO util.log: Logging initialized @2663ms
+2022-07-09 15:28:29,572 INFO server.Server: jetty-9.3.24.v20180605, build timestamp: 2018-06-05T17:11:56Z, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+2022-07-09 15:28:29,684 INFO handler.ContextHandler: Started o.e.j.s.ServletContextHandler@31aa3ca5{/,file:///src/main/org/apache/livy/server,AVAILABLE}
+2022-07-09 15:28:29,701 INFO server.AbstractNCSARequestLog: Opened /usr/livy/logs/2022_07_09.request.log
+2022-07-09 15:28:29,717 INFO server.AbstractConnector: Started ServerConnector@320de594{HTTP/1.1,[http/1.1]}{0.0.0.0:8998}
+2022-07-09 15:28:29,718 INFO server.Server: Started @2931ms
+2022-07-09 15:28:29,721 INFO server.WebServer: Starting server on http://e67cca396903:8998
+2022-07-09 15:29:15,842 INFO interactive.InteractiveSession$: Creating Interactive session 0: [owner: null, request: [kind: pyspark, proxyUser: None, heartbeatTimeoutInSecond: 0]]
+2022-07-09 15:29:16,044 INFO rpc.RpcServer: Connected to the port 10000
+2022-07-09 15:29:16,044 WARN rsc.RSCConf: Your hostname, e67cca396903, resolves to a loopback address, but we couldn't find any external IP address!
+2022-07-09 15:29:16,044 WARN rsc.RSCConf: Set livy.rsc.rpc.server.address if you need to bind to another address.
+2022-07-09 15:29:16,095 INFO sessions.InteractiveSessionManager: Registering new session 0
+2022-07-09 15:29:16,111 INFO sessions.InteractiveSessionManager: Registered new session 0
+2022-07-09 15:29:17,585 INFO utils.LineBufferedStream: 2022-07-09 15:29:17,584 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-07-09 15:29:18,085 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,084 INFO driver.RSCDriver: Connecting to: e67cca396903:10000
+2022-07-09 15:29:18,085 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,085 INFO driver.RSCDriver: Starting RPC server...
+2022-07-09 15:29:18,254 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,254 INFO rpc.RpcServer: Connected to the port 10001
+2022-07-09 15:29:18,254 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,254 WARN rsc.RSCConf: Your hostname, e67cca396903, resolves to a loopback address, but we couldn't find any external IP address!
+2022-07-09 15:29:18,254 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,254 WARN rsc.RSCConf: Set livy.rsc.rpc.server.address if you need to bind to another address.
+2022-07-09 15:29:18,624 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,624 INFO driver.RSCDriver: Received job request 9c223d03-47ec-47fd-9b0a-e27b87ad3d27
+2022-07-09 15:29:18,625 INFO utils.LineBufferedStream: 2022-07-09 15:29:18,625 INFO driver.RSCDriver: SparkContext not yet up, queueing job request.
+2022-07-09 15:29:21,403 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,403 INFO driver.SparkEntries: Starting Spark context...
+2022-07-09 15:29:21,423 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,423 INFO spark.SparkContext: Running Spark version 2.4.5
+2022-07-09 15:29:21,465 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,465 INFO spark.SparkContext: Submitted application: livy-session-0
+2022-07-09 15:29:21,528 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,528 INFO spark.SecurityManager: Changing view acls to: root
+2022-07-09 15:29:21,528 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,528 INFO spark.SecurityManager: Changing modify acls to: root
+2022-07-09 15:29:21,529 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,528 INFO spark.SecurityManager: Changing view acls groups to: 
+2022-07-09 15:29:21,529 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,529 INFO spark.SecurityManager: Changing modify acls groups to: 
+2022-07-09 15:29:21,529 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,529 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2022-07-09 15:29:21,648 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,647 INFO util.Utils: Successfully started service 'sparkDriver' on port 7001.
+2022-07-09 15:29:21,674 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,674 INFO spark.SparkEnv: Registering MapOutputTracker
+2022-07-09 15:29:21,689 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,689 INFO spark.SparkEnv: Registering BlockManagerMaster
+2022-07-09 15:29:21,691 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,691 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2022-07-09 15:29:21,692 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,692 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+2022-07-09 15:29:21,702 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,702 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-689bf0d1-9de6-49b5-b3ad-717b4562bce9
+2022-07-09 15:29:21,717 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,717 INFO memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+2022-07-09 15:29:21,729 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,729 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+2022-07-09 15:29:21,802 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,802 INFO util.log: Logging initialized @5401ms
+2022-07-09 15:29:21,852 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,852 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: 2018-06-05T17:11:56Z, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+2022-07-09 15:29:21,868 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,867 INFO server.Server: Started @5467ms
+2022-07-09 15:29:21,883 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,883 INFO server.AbstractConnector: Started ServerConnector@f7f0613{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2022-07-09 15:29:21,883 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,883 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+2022-07-09 15:29:21,908 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,907 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@179dc0d2{/jobs,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,908 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,908 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@31d60b04{/jobs/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,909 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,909 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@28defe26{/jobs/job,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,911 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,910 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@37ba6d00{/jobs/job/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,912 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,911 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@36b5ded8{/stages,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,912 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,912 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@69c539e6{/stages/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,920 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,916 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2ae3712{/stages/stage,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,921 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,919 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3e89c518{/stages/stage/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,921 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,921 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4dec637c{/stages/pool,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,922 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,922 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6f17fb33{/stages/pool/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,923 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,923 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@ffd5d5f{/storage,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,924 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,924 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7face8bd{/storage/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,926 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,925 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@51f593b7{/storage/rdd,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,926 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,926 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1eb24d9{/storage/rdd/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,927 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,927 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6499961e{/environment,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,929 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,929 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7c687330{/environment/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,930 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,930 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@17d3f21{/executors,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,934 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,933 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@59e81e3b{/executors/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,936 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,936 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@71695a7e{/executors/threadDump,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,938 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,938 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4ea74690{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,947 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,947 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@26cbec52{/static,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,949 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,948 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@25680dd{/,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,950 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,950 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2480683a{/api,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,951 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,951 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@28e496ea{/jobs/job/kill,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,952 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,952 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@661751f4{/stages/stage/kill,null,AVAILABLE,@Spark}
+2022-07-09 15:29:21,954 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,954 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://e67cca396903:4040
+2022-07-09 15:29:21,974 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,974 INFO spark.SparkContext: Added JAR file:///usr/livy/rsc-jars/livy-rsc-0.7.0-incubating.jar at spark://e67cca396903:7001/jars/livy-rsc-0.7.0-incubating.jar with timestamp 1657380561974
+2022-07-09 15:29:21,975 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,974 INFO spark.SparkContext: Added JAR file:///usr/livy/rsc-jars/livy-thriftserver-session-0.7.0-incubating.jar at spark://e67cca396903:7001/jars/livy-thriftserver-session-0.7.0-incubating.jar with timestamp 1657380561974
+2022-07-09 15:29:21,976 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,974 INFO spark.SparkContext: Added JAR file:///usr/livy/rsc-jars/netty-all-4.0.37.Final.jar at spark://e67cca396903:7001/jars/netty-all-4.0.37.Final.jar with timestamp 1657380561974
+2022-07-09 15:29:21,976 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,975 INFO spark.SparkContext: Added JAR file:///usr/livy/rsc-jars/livy-api-0.7.0-incubating.jar at spark://e67cca396903:7001/jars/livy-api-0.7.0-incubating.jar with timestamp 1657380561974
+2022-07-09 15:29:21,977 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,975 INFO spark.SparkContext: Added JAR file:///usr/livy/repl_2.11-jars/commons-codec-1.9.jar at spark://e67cca396903:7001/jars/commons-codec-1.9.jar with timestamp 1657380561975
+2022-07-09 15:29:21,977 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,975 INFO spark.SparkContext: Added JAR file:///usr/livy/repl_2.11-jars/livy-core_2.11-0.7.0-incubating.jar at spark://e67cca396903:7001/jars/livy-core_2.11-0.7.0-incubating.jar with timestamp 1657380561975
+2022-07-09 15:29:21,978 INFO utils.LineBufferedStream: 2022-07-09 15:29:21,975 INFO spark.SparkContext: Added JAR file:///usr/livy/repl_2.11-jars/livy-repl_2.11-0.7.0-incubating.jar at spark://e67cca396903:7001/jars/livy-repl_2.11-0.7.0-incubating.jar with timestamp 1657380561975
+2022-07-09 15:29:22,072 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,072 INFO client.StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+2022-07-09 15:29:22,118 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,118 INFO client.TransportClientFactory: Successfully created connection to spark-master/172.22.0.2:7077 after 23 ms (0 ms spent in bootstraps)
+2022-07-09 15:29:22,280 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,280 INFO cluster.StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20220709152922-0000
+2022-07-09 15:29:22,301 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,299 INFO client.StandaloneAppClient$ClientEndpoint: Executor added: app-20220709152922-0000/0 on worker-20220709152827-172.22.0.3-7000 (172.22.0.3:7000) with 1 core(s)
+2022-07-09 15:29:22,302 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,302 INFO cluster.StandaloneSchedulerBackend: Granted executor ID app-20220709152922-0000/0 on hostPort 172.22.0.3:7000 with 1 core(s), 1024.0 MB RAM
+2022-07-09 15:29:22,332 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,329 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7002.
+2022-07-09 15:29:22,332 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,330 INFO netty.NettyBlockTransferService: Server created on e67cca396903:7002
+2022-07-09 15:29:22,335 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,335 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2022-07-09 15:29:22,388 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,388 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, e67cca396903, 7002, None)
+2022-07-09 15:29:22,395 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,393 INFO storage.BlockManagerMasterEndpoint: Registering block manager e67cca396903:7002 with 366.3 MB RAM, BlockManagerId(driver, e67cca396903, 7002, None)
+2022-07-09 15:29:22,412 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,408 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, e67cca396903, 7002, None)
+2022-07-09 15:29:22,413 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,409 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, e67cca396903, 7002, None)
+2022-07-09 15:29:22,596 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,596 INFO client.StandaloneAppClient$ClientEndpoint: Executor updated: app-20220709152922-0000/0 is now RUNNING
+2022-07-09 15:29:22,944 INFO utils.LineBufferedStream: 2022-07-09 15:29:22,944 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@b815aba{/metrics/json,null,AVAILABLE,@Spark}
+2022-07-09 15:29:29,065 INFO utils.LineBufferedStream: 2022-07-09 15:29:29,064 INFO cluster.CoarseGrainedSchedulerBackend$DriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.22.0.3:52178) with ID 0
+2022-07-09 15:29:29,180 INFO utils.LineBufferedStream: 2022-07-09 15:29:29,179 INFO storage.BlockManagerMasterEndpoint: Registering block manager 172.22.0.3:7002 with 366.3 MB RAM, BlockManagerId(0, 172.22.0.3, 7002, None)
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,071 ERROR spark.SparkContext: Error initializing SparkContext.
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: java.lang.IllegalArgumentException: java.net.UnknownHostException: master
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 	at org.apache.hadoop.security.SecurityUtil.buildTokenService(SecurityUtil.java:447)
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.NameNodeProxiesClient.createProxyWithClientProtocol(NameNodeProxiesClient.java:131)
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:355)
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:289)
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:176)
+2022-07-09 15:29:32,074 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3303)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:470)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.spark.util.Utils$.getHadoopFileSystem(Utils.scala:1866)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.spark.scheduler.EventLoggingListener.<init>(EventLoggingListener.scala:71)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.spark.SparkContext.<init>(SparkContext.scala:521)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2520)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.spark.SparkContext.getOrCreate(SparkContext.scala)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.SparkEntries.sc(SparkEntries.java:53)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.SparkEntries.sparkSession(SparkEntries.java:67)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.AbstractSparkInterpreter.postStart(AbstractSparkInterpreter.scala:69)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter$$anonfun$start$1.apply$mcV$sp(SparkInterpreter.scala:88)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter$$anonfun$start$1.apply(SparkInterpreter.scala:63)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter$$anonfun$start$1.apply(SparkInterpreter.scala:63)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.AbstractSparkInterpreter.restoreContextClassLoader(AbstractSparkInterpreter.scala:340)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter.start(SparkInterpreter.scala:63)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.Session$$anonfun$1.apply(Session.scala:128)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.Session$$anonfun$1.apply(Session.scala:122)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022-07-09 15:29:32,075 INFO utils.LineBufferedStream: 	at java.lang.Thread.run(Thread.java:748)
+2022-07-09 15:29:32,076 INFO utils.LineBufferedStream: Caused by: java.net.UnknownHostException: master
+2022-07-09 15:29:32,076 INFO utils.LineBufferedStream: 	... 31 more
+2022-07-09 15:29:32,081 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,081 INFO server.AbstractConnector: Stopped Spark@f7f0613{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2022-07-09 15:29:32,084 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,084 INFO ui.SparkUI: Stopped Spark web UI at http://e67cca396903:4040
+2022-07-09 15:29:32,089 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,088 INFO cluster.StandaloneSchedulerBackend: Shutting down all executors
+2022-07-09 15:29:32,092 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,090 INFO cluster.CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+2022-07-09 15:29:32,116 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,116 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+2022-07-09 15:29:32,181 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,181 INFO memory.MemoryStore: MemoryStore cleared
+2022-07-09 15:29:32,181 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,181 INFO storage.BlockManager: BlockManager stopped
+2022-07-09 15:29:32,197 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,195 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+2022-07-09 15:29:32,198 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,197 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+2022-07-09 15:29:32,226 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,226 INFO spark.SparkContext: Successfully stopped SparkContext
+2022-07-09 15:29:32,232 INFO utils.LineBufferedStream: 2022-07-09 15:29:32,227 WARN driver.RSCDriver: Error during cancel job.
+2022-07-09 15:29:32,233 INFO utils.LineBufferedStream: java.lang.NullPointerException
+2022-07-09 15:29:32,234 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.JobWrapper.cancel(JobWrapper.java:90)
+2022-07-09 15:29:32,234 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.RSCDriver.shutdown(RSCDriver.java:128)
+2022-07-09 15:29:32,235 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.RSCDriver.run(RSCDriver.java:360)
+2022-07-09 15:29:32,235 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.RSCDriverBootstrapper.main(RSCDriverBootstrapper.java:93)
+2022-07-09 15:29:32,235 INFO utils.LineBufferedStream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-07-09 15:29:32,235 INFO utils.LineBufferedStream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-07-09 15:29:32,235 INFO utils.LineBufferedStream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-07-09 15:29:32,236 INFO utils.LineBufferedStream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+2022-07-09 15:29:32,236 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+2022-07-09 15:29:32,237 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:845)
+2022-07-09 15:29:32,237 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:161)
+2022-07-09 15:29:32,237 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:184)
+2022-07-09 15:29:32,237 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+2022-07-09 15:29:32,237 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:920)
+2022-07-09 15:29:32,237 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)
+2022-07-09 15:29:32,238 INFO utils.LineBufferedStream: 	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+2022-07-09 15:29:32,264 WARN rsc.RSCClient: Client RPC channel closed unexpectedly.
+2022-07-09 15:29:32,266 INFO utils.LineBufferedStream: Exception in thread "main" java.lang.IllegalArgumentException: java.net.UnknownHostException: master
+2022-07-09 15:29:32,266 INFO utils.LineBufferedStream: 	at org.apache.hadoop.security.SecurityUtil.buildTokenService(SecurityUtil.java:447)
+2022-07-09 15:29:32,267 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.NameNodeProxiesClient.createProxyWithClientProtocol(NameNodeProxiesClient.java:131)
+2022-07-09 15:29:32,267 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:355)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:289)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:176)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3303)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:124)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:3352)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3320)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:479)
+2022-07-09 15:29:32,268 INFO utils.LineBufferedStream: 	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:470)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.spark.util.Utils$.getHadoopFileSystem(Utils.scala:1866)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.spark.scheduler.EventLoggingListener.<init>(EventLoggingListener.scala:71)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.spark.SparkContext.<init>(SparkContext.scala:521)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2520)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.spark.SparkContext.getOrCreate(SparkContext.scala)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.SparkEntries.sc(SparkEntries.java:53)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.livy.rsc.driver.SparkEntries.sparkSession(SparkEntries.java:67)
+2022-07-09 15:29:32,269 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.AbstractSparkInterpreter.postStart(AbstractSparkInterpreter.scala:69)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter$$anonfun$start$1.apply$mcV$sp(SparkInterpreter.scala:88)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter$$anonfun$start$1.apply(SparkInterpreter.scala:63)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter$$anonfun$start$1.apply(SparkInterpreter.scala:63)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.AbstractSparkInterpreter.restoreContextClassLoader(AbstractSparkInterpreter.scala:340)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.SparkInterpreter.start(SparkInterpreter.scala:63)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.Session$$anonfun$1.apply(Session.scala:128)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at org.apache.livy.repl.Session$$anonfun$1.apply(Session.scala:122)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24)
+2022-07-09 15:29:32,270 INFO utils.LineBufferedStream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022-07-09 15:29:32,271 INFO utils.LineBufferedStream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022-07-09 15:29:32,271 INFO utils.LineBufferedStream: 	at java.lang.Thread.run(Thread.java:748)
+2022-07-09 15:29:32,271 INFO utils.LineBufferedStream: Caused by: java.net.UnknownHostException: master
+2022-07-09 15:29:32,271 INFO utils.LineBufferedStream: 	... 31 more
+2022-07-09 15:29:32,286 WARN rsc.RSCClient: Error stopping RPC.
+io.netty.util.concurrent.BlockingOperationException: DefaultChannelPromise@67f86249(uncancellable)
+	at io.netty.util.concurrent.DefaultPromise.checkDeadLock(DefaultPromise.java:394)
+	at io.netty.channel.DefaultChannelPromise.checkDeadLock(DefaultChannelPromise.java:157)
+	at io.netty.util.concurrent.DefaultPromise.await(DefaultPromise.java:230)
+	at io.netty.channel.DefaultChannelPromise.await(DefaultChannelPromise.java:129)
+	at io.netty.channel.DefaultChannelPromise.await(DefaultChannelPromise.java:28)
+	at io.netty.util.concurrent.DefaultPromise.sync(DefaultPromise.java:336)
+	at io.netty.channel.DefaultChannelPromise.sync(DefaultChannelPromise.java:117)
+	at io.netty.channel.DefaultChannelPromise.sync(DefaultChannelPromise.java:28)
+	at org.apache.livy.rsc.rpc.Rpc.close(Rpc.java:310)
+	at org.apache.livy.rsc.RSCClient.stop(RSCClient.java:235)
+	at org.apache.livy.rsc.RSCClient$2$1.onSuccess(RSCClient.java:132)
+	at org.apache.livy.rsc.RSCClient$2$1.onSuccess(RSCClient.java:126)
+	at org.apache.livy.rsc.Utils$2.operationComplete(Utils.java:106)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:518)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersWithStackOverFlowProtection(DefaultPromise.java:431)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:420)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:108)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:82)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:995)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:621)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:599)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:543)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:71)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:158)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:564)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:505)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:419)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:391)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-09 15:29:32,289 INFO rsc.RSCClient: Failing pending job 9c223d03-47ec-47fd-9b0a-e27b87ad3d27 due to shutdown.
+2022-07-09 15:29:32,296 INFO interactive.InteractiveSession: Stopping InteractiveSession 0...
+2022-07-09 15:29:32,299 INFO interactive.InteractiveSession: Failed to ping RSC driver for session 0. Killing application.
+Exception in thread "Thread-32" java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:170)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:283)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at scala.io.BufferedSource$BufferedLineIterator.hasNext(BufferedSource.scala:72)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at org.apache.livy.utils.LineBufferedStream$$anon$1.run(LineBufferedStream.scala:46)
+2022-07-09 15:29:34,483 WARN rsc.ContextLauncher: Child process exited with code 143.
+2022-07-09 15:29:34,485 ERROR utils.SparkProcApp: job was killed by user
+2022-07-09 15:29:34,511 INFO interactive.InteractiveSession: Stopped InteractiveSession 0.
