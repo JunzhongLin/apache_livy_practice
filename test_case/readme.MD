@@ -1,0 +1,1 @@
+ run --rm -p8998:8998 -v /home/johnlin/python_repos/apache_livy_practice/test_case:/job --env LOCAL_DIR_WHITELIST=/job 8944bcaa141f
