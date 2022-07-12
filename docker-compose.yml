@@ -6,9 +6,6 @@ services:
       - "9090:8080"
       - "7077:7077"
       - "4040:4040"
-    volumes:
-       - ./app:/job/app
-       - ./data:/job/data
     environment:
       - SPARK_LOCAL_IP=spark-master
       - SPARK_WORKLOAD=master
@@ -27,28 +24,22 @@ services:
       - SPARK_EXECUTOR_MEMORY=1G
       - SPARK_WORKLOAD=worker
       - SPARK_LOCAL_IP=spark-worker-a
-    volumes:
-       - ./app:/job/app
-       - ./data:/job/data
 
-#  spark-worker-b:
-#    image: standalone-pyspark:2.3.2-hadoop2.7-py3.7
-#    ports:
-#      - "9092:8080"
-#      - "7001:7000"
-#    depends_on:
-#      - spark-master
-#    environment:
-#      - SPARK_MASTER=spark://spark-master:7077
-#      - SPARK_WORKER_CORES=1
-#      - SPARK_WORKER_MEMORY=300M
-#      - SPARK_DRIVER_MEMORY=300M
-#      - SPARK_EXECUTOR_MEMORY=300M
-#      - SPARK_WORKLOAD=worker
-#      - SPARK_LOCAL_IP=spark-worker-b
-#    volumes:
-#       - ./app:/job/app
-#       - ./data:/job/data
+  spark-worker-b:
+    image: standalone-pyspark:2.3.2-hadoop2.7-py3.7
+    ports:
+      - "9092:8080"
+      - "7001:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=300M
+      - SPARK_DRIVER_MEMORY=300M
+      - SPARK_EXECUTOR_MEMORY=300M
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-b
 
   livy:
     image: john/livy-spark:0.3.0
@@ -61,8 +52,7 @@ services:
     environment:
       - SPARK_MASTER=spark://spark-master:7077
       - SPARK_DEPLOY_MODE=client
-      - LOCAL_DIR_WHITELIST=/job/data/batches/
+      - LOCAL_DIR_WHITELIST=/job
 
     volumes:
-     - ./app:/job/app
-     - ./data:/job/data
+     - ./test_case:/job
