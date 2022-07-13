@@ -67,12 +67,16 @@ cd docker_files/spark_base && docker build --tag john/pyspark:2.3.2-hadoop2.7-py
 
 - build the livy-spark image
 ```bash
-cd ../../test_case && docker build --tag john/livy-spark:0.3.0 .
+cd ../livy-spark && docker build --tag john/livy-spark:0.3.0 .
 ```
 
 - run the livy-spark container (Note: Please substitute the path/to/current_folder in the following bash command)
 ```bash
-docker run --rm -p8998:8998 -v path/to/current_folder:/job --env LOCAL_DIR_WHITELIST=/job john/livy-spark:0.3.0
+cd ../../test_case && \
+docker run --rm -p8998:8998 \
+  -v $PWD:/job \
+  --env LOCAL_DIR_WHITELIST=/job \
+  john/livy-spark:0.3.0
 ```
 - submit the test spark job (wordcount)
 ```bash
