@@ -1,5 +1,6 @@
 curl --request POST \
   --url http://localhost:8998/batches \
+  --conf spark.master='local[1]' \
   --header 'content-type: application/json' \
   --data '{
 	"file": "/job/app/wordcount.py",
@@ -10,4 +11,19 @@ curl --request POST \
 	"files": [
 		"/job/data/countme.txt"
 	]
+}' | python3 -mjson.tool
+
+
+curl --request POST \
+  --url http://localhost:8998/sessions \
+  --header 'content-type: application/json' \
+  --data '{
+		"kind":"pyspark",
+        "pyFiles": [
+            "/job/app/wordcount.py",
+        	"/job/packages.zip"
+        ],
+        "files": [
+            "/job/data/countme.txt"
+        ]
 }' | python3 -mjson.tool
