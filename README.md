@@ -89,9 +89,7 @@ curl --request POST \
 		"/job/app/wordcount.py",
         "/job/packages.zip"
 	],
-	"files": [
-		"/job/data/countme.txt"
-	]
+	"files": []
 }' | python3 -mjson.tool
 ```
 
